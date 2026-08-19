@@ -30,7 +30,7 @@ dependencies:
   flutter_secure_storage: ^10.3.1
 
   # Monitoring
-  sentry_flutter: ^9.22.0
+  sentry_flutter: ^9.27.0
   logger: ^2.7.0
 
   # Media / Images (offer photos)
