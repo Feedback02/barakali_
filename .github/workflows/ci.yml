@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  # Kept for the occasional feature-branch PR; the solo trunk-based flow merges
+  # straight to main, where the push trigger above runs CI.
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  analyze-test-build:
+    name: Analyze, test, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Pinned, not `channel: stable`: dart format output changes between SDK
+      # releases, so an unpinned CI reformats files that are correctly formatted
+      # on the dev machine and fails the format gate. Bump this deliberately
+      # alongside a local `flutter upgrade` + reformat.
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version: 3.44.1
+          cache: true
+
+      # Runs before codegen so it only inspects committed source — generated
+      # *.g.dart / *.freezed.dart / l10n files are gitignored and not yet present.
+      - name: Check formatting
+        run: dart format --output=none --set-exit-if-changed .
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Generate localizations
+        run: flutter gen-l10n
+
+      - name: Run code generation (freezed, json_serializable)
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Analyze
+        run: flutter analyze
+
+      - name: Test
+        run: flutter test
+
+      # Compile check only — no --dart-define secrets in CI; the build does not
+      # connect to Supabase.
+      - name: Build web (compile check)
+        run: flutter build web --release
+
+  osv-scan:
+    name: Dependency vulnerability scan
+    uses: google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@v2.3.8
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    with:
+      scan-args: |-
+        --lockfile=./pubspec.lock
+      # Fail the job directly on a known vulnerability instead of routing
+      # findings through Code Scanning.
+      upload-sarif: false

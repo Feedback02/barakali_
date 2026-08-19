@@ -1,0 +1,31 @@
+---
+import { asLang, useTranslations } from '../i18n/utils';
+
+const lang = asLang(Astro.currentLocale);
+const t = useTranslations(lang);
+
+const stats = [
+  { value: t('impact.stat1.value'), label: t('impact.stat1.label') },
+  { value: t('impact.stat2.value'), label: t('impact.stat2.label') },
+  { value: t('impact.stat3.value'), label: t('impact.stat3.label') },
+];
+---
+
+<section class="bg-brand text-white">
+  <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+    <h2 class="text-center text-3xl font-bold tracking-tight">
+      {t('impact.title')}
+    </h2>
+    <div class="mt-10 grid gap-8 text-center sm:grid-cols-3">
+      {
+        stats.map((stat) => (
+          <div class="flex flex-col items-center">
+            <div class="text-4xl font-extrabold sm:text-5xl">{stat.value}</div>
+            <span class="mt-3 block h-1 w-10 rounded-full bg-amber" />
+            <p class="mt-3 text-white">{stat.label}</p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

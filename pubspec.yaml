@@ -1,0 +1,86 @@
+name: barakali
+description: Surplus food marketplace for Uzbekistan
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # State Management (manual Notifier/AsyncNotifier pattern, no codegen)
+  flutter_riverpod: ^3.3.1
+
+  # Routing
+  go_router: ^17.3.0
+
+  # Backend
+  supabase_flutter: ^2.14.0
+
+  # Models
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+
+  # Security
+  flutter_secure_storage: ^10.3.1
+
+  # Monitoring
+  sentry_flutter: ^9.22.0
+  logger: ^2.7.0
+
+  # Media / Images (offer photos)
+  image_picker: ^1.2.2
+  image: ^4.9.1 # pure-Dart decode/EXIF-strip/compress (cross-platform incl. web)
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  geolocator: ^14.0.2
+  google_maps_flutter: ^2.17.1
+  web: ^1.1.1
+  flutter_svg: ^2.3.0
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.2.0
+  flutter_rating_bar: ^4.0.1
+  url_launcher: ^6.3.1
+
+  # Push Notifications (FCM)
+  firebase_core: ^4.10.0
+  firebase_messaging: ^16.3.0
+  flutter_local_notifications: ^22.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.15.0
+  freezed: ^3.2.5
+  json_serializable: ^6.14.0
+  flutter_launcher_icons: ^0.14.4
+
+# App launcher icon (Barakali logo). Sources live in assets/launcher/ (NOT bundled
+# — build-time only). Regenerate after changing them: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: false
+  min_sdk_android: 24
+  image_path: "assets/launcher/barakali_icon.png"
+  adaptive_icon_background: "#FAF8F5"
+  adaptive_icon_foreground: "assets/launcher/barakali_icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/legal/
+  # Noto Sans (Latin + Cyrillic) bundled — NOT google_fonts runtime fetch, so the
+  # splash never blocks on a download and rendering is deterministic offline. One
+  # variable file; Flutter maps fontWeight (w400/w500/w600/w700) onto the wght axis.
+  fonts:
+    - family: Noto Sans
+      fonts:
+        - asset: assets/fonts/NotoSans-Variable.ttf

@@ -1,0 +1,1377 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Баракали",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "navHome": "Главная",
+  "@navHome": {
+    "description": "Bottom navigation: Home tab"
+  },
+  "navMap": "Карта",
+  "@navMap": {
+    "description": "Bottom navigation: Map tab"
+  },
+  "navOrders": "Заказы",
+  "@navOrders": {
+    "description": "Bottom navigation: Orders tab"
+  },
+  "navProfile": "Профиль",
+  "@navProfile": {
+    "description": "Bottom navigation: Profile tab"
+  },
+  "language": "Язык",
+  "@language": {
+    "description": "Language settings section title"
+  },
+  "languageRussian": "Русский",
+  "@languageRussian": {
+    "description": "Russian language option"
+  },
+  "languageUzbek": "Oʻzbekcha",
+  "@languageUzbek": {
+    "description": "Uzbek language option"
+  },
+  "languageEnglish": "English",
+  "@languageEnglish": {
+    "description": "English language option"
+  },
+  "comingSoon": "Скоро будет доступно",
+  "@comingSoon": {
+    "description": "Placeholder text for screens under development"
+  },
+
+  "authValueProp": "Спасайте вкусную еду рядом",
+  "@authValueProp": {
+    "description": "One-line value proposition shown under the logo on the login screen."
+  },
+  "onboardingSkip": "Пропустить",
+  "@onboardingSkip": {
+    "description": "Button to skip the first-run intro and go straight to login."
+  },
+  "onboardingNext": "Далее",
+  "@onboardingNext": {
+    "description": "Button advancing to the next intro slide."
+  },
+  "onboardingGetStarted": "Начать",
+  "@onboardingGetStarted": {
+    "description": "Button on the last intro slide that proceeds to login."
+  },
+  "onboardingSlide1Title": "Спасайте еду",
+  "@onboardingSlide1Title": {
+    "description": "Title of the first onboarding slide (rescue surplus food)."
+  },
+  "onboardingSlide1Body": "Забирайте сюрприз-наборы из непроданных блюд в кафе, пекарнях и магазинах рядом, по сниженной цене.",
+  "@onboardingSlide1Body": {
+    "description": "Body of the first onboarding slide."
+  },
+  "onboardingSlide2Title": "Экономьте деньги",
+  "@onboardingSlide2Title": {
+    "description": "Title of the second onboarding slide (save money)."
+  },
+  "onboardingSlide2Body": "Качественная еда и продукты дешевле. Оплачивайте в приложении и забирайте в заведении.",
+  "@onboardingSlide2Body": {
+    "description": "Body of the second onboarding slide."
+  },
+  "onboardingSlide3Title": "Меньше отходов",
+  "@onboardingSlide3Title": {
+    "description": "Title of the third onboarding slide (reduce food waste)."
+  },
+  "onboardingSlide3Body": "Каждый набор помогает городу выбрасывать меньше еды. Хорошо для вас и для планеты.",
+  "@onboardingSlide3Body": {
+    "description": "Body of the third onboarding slide."
+  },
+  "authPhoneTitle": "Введите номер телефона",
+  "@authPhoneTitle": {
+    "description": "Phone input screen title"
+  },
+  "authPhoneSubtitle": "Мы отправим вам код подтверждения",
+  "@authPhoneSubtitle": {
+    "description": "Phone input screen subtitle"
+  },
+  "authPhoneHint": "XX YYY YY YY",
+  "@authPhoneHint": {
+    "description": "Phone input field hint"
+  },
+  "authPhoneContinue": "Продолжить",
+  "@authPhoneContinue": {
+    "description": "Phone input continue button"
+  },
+  "authPhoneInvalid": "Введите корректный номер телефона",
+  "@authPhoneInvalid": {
+    "description": "Phone validation error"
+  },
+
+  "authOtpTitle": "Введите код подтверждения",
+  "@authOtpTitle": {
+    "description": "OTP verification screen title"
+  },
+  "authOtpSubtitle": "Код отправлен на {phone}",
+  "@authOtpSubtitle": {
+    "description": "OTP screen subtitle with masked phone",
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "authOtpResendIn": "Отправить повторно через {seconds}с",
+  "@authOtpResendIn": {
+    "description": "OTP resend countdown",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authOtpResend": "Отправить код повторно",
+  "@authOtpResend": {
+    "description": "OTP resend button"
+  },
+  "authOtpWrongNumber": "Неверный номер?",
+  "@authOtpWrongNumber": {
+    "description": "Wrong phone number link"
+  },
+  "authOtpInvalid": "Неверный код, попробуйте ещё раз",
+  "@authOtpInvalid": {
+    "description": "Invalid OTP error"
+  },
+  "authOtpTooManyAttempts": "Слишком много попыток. Подождите.",
+  "@authOtpTooManyAttempts": {
+    "description": "Too many OTP attempts error"
+  },
+
+  "registrationTitle": "Заполните профиль",
+  "@registrationTitle": {
+    "description": "Registration screen title"
+  },
+  "registrationNameLabel": "Ваше имя",
+  "@registrationNameLabel": {
+    "description": "Display name input label"
+  },
+  "registrationNameHint": "Как вас называть?",
+  "@registrationNameHint": {
+    "description": "Display name input hint"
+  },
+  "registrationConsentsTitle": "Соглашения",
+  "@registrationConsentsTitle": {
+    "description": "Consent section title"
+  },
+  "registrationTos": "Я принимаю Условия использования",
+  "@registrationTos": {
+    "description": "Terms of service consent"
+  },
+  "registrationPrivacy": "Я принимаю Политику конфиденциальности",
+  "@registrationPrivacy": {
+    "description": "Privacy policy consent"
+  },
+  "registrationDataProcessing": "Я даю согласие на обработку персональных данных",
+  "@registrationDataProcessing": {
+    "description": "Data processing consent"
+  },
+  "registrationCrossBorder": "Я даю согласие на трансграничную передачу данных (серверы ЕС)",
+  "@registrationCrossBorder": {
+    "description": "Cross-border data transfer consent"
+  },
+  "registrationMarketing": "Присылать мне новости и спецпредложения",
+  "@registrationMarketing": {
+    "description": "Marketing notifications consent (optional)"
+  },
+  "registrationComplete": "Завершить регистрацию",
+  "@registrationComplete": {
+    "description": "Complete registration button"
+  },
+
+  "legalTermsTitle": "Условия использования",
+  "@legalTermsTitle": {
+    "description": "Terms of Service document title (nominative)"
+  },
+  "legalPrivacyTitle": "Политика конфиденциальности",
+  "@legalPrivacyTitle": {
+    "description": "Privacy Policy document title (nominative)"
+  },
+  "legalLinkTos": "Условия использования",
+  "@legalLinkTos": {
+    "description": "Link phrase inside registrationTos, must be a verbatim substring of it"
+  },
+  "legalLinkPrivacy": "Политику конфиденциальности",
+  "@legalLinkPrivacy": {
+    "description": "Link phrase inside registrationPrivacy, must be a verbatim substring of it (note declension differs from the document title)"
+  },
+  "legalVersionLine": "Версия {version} · Обновлено {date}",
+  "@legalVersionLine": {
+    "description": "Footer line showing the document version and revision date",
+    "placeholders": {
+      "version": { "type": "String" },
+      "date": { "type": "String" }
+    }
+  },
+  "legalLoadError": "Не удалось загрузить документ.",
+  "@legalLoadError": {
+    "description": "Shown when a legal document asset fails to load"
+  },
+
+  "authSignOut": "Выйти",
+  "@authSignOut": {
+    "description": "Sign out button"
+  },
+  "authErrorGeneric": "Произошла ошибка. Попробуйте ещё раз.",
+  "@authErrorGeneric": {
+    "description": "Generic auth error message"
+  },
+
+  "fieldRequired": "Это поле обязательно",
+  "profileBecomeMerchant": "Зарегистрировать бизнес",
+
+  "merchantRegisterTitle": "Регистрация бизнеса",
+  "merchantRegisterSubtitle": "Расскажите о вашем бизнесе. Мы проверим заявку, прежде чем вы сможете публиковать предложения.",
+  "merchantBusinessNameLabel": "Название бизнеса",
+  "merchantBusinessNameHint": "напр. Пекарня Paul",
+  "merchantCategoryLabel": "Категория",
+  "merchantCategoryRestaurant": "Ресторан",
+  "merchantCategoryCafe": "Кафе",
+  "merchantCategoryBakery": "Пекарня",
+  "merchantCategorySupermarket": "Супермаркет",
+  "merchantCategoryOther": "Другое",
+  "merchantAddressLabel": "Адрес",
+  "merchantAddressHint": "Улица, дом, район",
+  "merchantPhoneLabel": "Телефон бизнеса",
+  "merchantDescriptionLabel": "Описание (необязательно)",
+  "merchantDescriptionHint": "Что предлагает ваш бизнес?",
+  "merchantSubmitApplication": "Отправить заявку",
+
+  "adminDashboardTitle": "Администратор",
+  "merchantDashboardTitle": "Партнёр",
+  "merchantPendingTitle": "Заявка на рассмотрении",
+  "merchantPendingBody": "Мы проверяем ваш бизнес. Вы сможете публиковать предложения после одобрения.",
+
+  "cancel": "Отмена",
+
+  "profileExportData": "Экспортировать мои данные",
+  "exportDataPreparing": "Подготовка ваших данных…",
+  "exportDataSuccess": "Ваши данные скопированы в буфер обмена в формате JSON.",
+  "exportDataError": "Не удалось экспортировать данные. Попробуйте ещё раз.",
+
+  "profileDeleteAccount": "Удалить аккаунт",
+  "deleteAccountConfirmTitle": "Удалить аккаунт?",
+  "deleteAccountConfirmBody": "Это навсегда удалит ваш профиль и персональные данные. Прошлые заказы сохраняются обезличенными для учёта. Это действие необратимо.",
+  "deleteAccountConfirmButton": "Удалить навсегда",
+  "deleteAccountError": "Не удалось удалить аккаунт. Попробуйте ещё раз.",
+  "deleteAccountOpenOrders": "Сначала завершите активные заказы, затем удалите аккаунт.",
+
+  "createOfferTitle": "Создать предложение",
+  "offerPhotoAdd": "Добавить фото",
+  "offerPhotoChange": "Изменить фото",
+  "imageSourceCamera": "Камера",
+  "imageSourceGallery": "Галерея",
+  "offerCategoryLabel": "Категория",
+  "offerCategoryMeal": "Готовое блюдо",
+  "offerCategoryBakery": "Выпечка",
+  "offerCategoryGrocery": "Продукты",
+  "offerCategoryMixed": "Ассорти",
+  "offerCategoryOther": "Другое",
+  "offerTitleLabel": "Название",
+  "offerTitleHint": "напр. Сюрприз-набор из выпечки",
+  "offerDescriptionLabel": "Описание (необязательно)",
+  "offerDescriptionHint": "Что входит в набор?",
+  "offerOriginalPriceLabel": "Изначальная цена (сум)",
+  "offerSellingPriceLabel": "Цена продажи (сум)",
+  "offerPriceInvalid": "Введите корректную сумму",
+  "offerSavingsPercent": "Покупатели экономят {percent}%",
+  "@offerSavingsPercent": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "offerQuantityLabel": "Количество",
+  "offerPickupWindowLabel": "Время получения",
+  "offerPickupStart": "Начало получения",
+  "offerPickupEnd": "Конец получения",
+  "offerPickupWindowRequired": "Укажите время начала и окончания получения.",
+  "offerValidationPriceOrder": "Цена продажи должна быть ниже изначальной.",
+  "offerValidationPickupOrder": "Окончание получения должно быть позже начала.",
+  "offerPickupInPast": "Время получения уже прошло. Выберите более позднее время.",
+  "offerPublish": "Опубликовать предложение",
+  "offerSaveDraft": "Сохранить как черновик",
+  "offerCreatedSuccess": "Предложение создано.",
+  "offerCreateError": "Не удалось создать предложение. Попробуйте ещё раз.",
+  "merchantCreateOffer": "Создать предложение",
+  "offersEmptyTitle": "Пока нет предложений",
+  "offersEmptyBody": "Нажмите «Создать предложение», чтобы опубликовать первый сюрприз-набор.",
+  "offerQuantityLeft": "Осталось: {count}",
+  "@offerQuantityLeft": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "offerSurpriseBoxTitle": "Сюрприз-набор",
+  "@offerSurpriseBoxTitle": {
+    "description": "Heading for the explainer block telling the buyer the contents are a surprise."
+  },
+  "offerSurpriseBoxBody": "Точный состав остаётся сюрпризом: вы получите подборку из непроданных за день блюд. Состав зависит от того, что осталось.",
+  "@offerSurpriseBoxBody": {
+    "description": "Body text explaining the variable-contents nature of a surprise bag."
+  },
+  "offerFreeCancellation": "Бесплатная отмена до начала времени получения.",
+  "@offerFreeCancellation": {
+    "description": "Reassurance line shown above the Reserve button stating cancellation is free until the pickup window starts."
+  },
+  "merchantVerifiedBadge": "Проверено Barakali",
+  "@merchantVerifiedBadge": {
+    "description": "Trust badge next to the merchant name indicating the business was approved by Barakali."
+  },
+  "offerGetDirections": "Маршрут",
+  "@offerGetDirections": {
+    "description": "Button that opens the device map app with directions to the merchant."
+  },
+  "offerReviewsTitle": "Отзывы",
+  "@offerReviewsTitle": {
+    "description": "Heading for the recent customer reviews section on the offer-detail screen."
+  },
+  "priceUzs": "{amount} сум",
+  "@priceUzs": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "offerStatusDraft": "Черновик",
+  "offerStatusActive": "Активно",
+  "offerStatusSoldOut": "Распродано",
+  "offerStatusExpired": "Истекло",
+  "offerStatusCancelled": "Отменено",
+
+  "offerFilterAll": "Все",
+  "offerFilterActive": "Активные",
+  "offerFilterPast": "Прошедшие",
+  "offerFilterEmpty": "Нет предложений в этой категории.",
+
+  "browseEmptyTitle": "Поблизости пока нет предложений",
+  "browseEmptyBody": "Загляните позже, продавцы добавляют новые наборы каждый день.",
+  "browseErrorTitle": "Не удалось загрузить предложения",
+  "browseRetry": "Повторить",
+  "searchHint": "Поиск ресторанов и наборов",
+  "filterDistanceAny": "Любое",
+  "filterUseLocation": "Моё местоположение",
+  "browseNoResults": "Ничего не найдено",
+  "browseClearFilters": "Сбросить фильтры",
+  "offerSavingsBadge": "-{percent}%",
+  "@offerSavingsBadge": {
+    "description": "Compact savings badge on an offer card, e.g. -47%",
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "offerLeftShort": "Осталось {count}",
+  "@offerLeftShort": {
+    "description": "Compact remaining-quantity badge overlaid on an offer card image.",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "offerEndingSoon": "Скоро закрытие",
+  "@offerEndingSoon": {
+    "description": "Urgency badge on an offer card when the pickup window closes within the next couple of hours."
+  },
+  "browseSortLabel": "Сортировка",
+  "@browseSortLabel": {
+    "description": "Label of the button that opens the browse-list sort options."
+  },
+  "browseSortSheetTitle": "Сортировать по",
+  "@browseSortSheetTitle": {
+    "description": "Heading of the bottom sheet that lets the user choose how the browse list is ordered."
+  },
+  "browseSortNearest": "Ближайшие",
+  "@browseSortNearest": {
+    "description": "Sort option: nearest merchants first."
+  },
+  "browseSortEndingSoon": "Заканчиваются",
+  "@browseSortEndingSoon": {
+    "description": "Sort option: offers whose pickup window closes soonest first."
+  },
+  "browseSortPrice": "Сначала дешёвые",
+  "@browseSortPrice": {
+    "description": "Sort option: lowest price first."
+  },
+  "browseOffersCount": "{count, plural, one{{count} предложение} few{{count} предложения} other{{count} предложений}}",
+  "@browseOffersCount": {
+    "description": "Number of offers shown in the browse list header.",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "browseRefresh": "Обновить",
+  "@browseRefresh": {
+    "description": "Action on the empty browse state that re-fetches offers."
+  },
+
+  "distanceKm": "{km} км",
+  "@distanceKm": {
+    "description": "Distance to a merchant, e.g. 1.2 km",
+    "placeholders": {
+      "km": { "type": "String" }
+    }
+  },
+  "mapOffersCount": "{count, plural, one{{count} предложение} few{{count} предложения} other{{count} предложений}}",
+  "@mapOffersCount": {
+    "description": "Number of offers at a merchant pin on the map",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mapPlacesCount": "{count, plural, one{{count} место} few{{count} места} other{{count} мест}}",
+  "@mapPlacesCount": {
+    "description": "Count chip on the map showing how many merchants are pinned.",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mapMyLocation": "Моё местоположение",
+  "@mapMyLocation": {
+    "description": "Tooltip on the map button that recenters on the user's location."
+  },
+
+  "offerReserve": "Забронировать",
+  "offerReserveComingSoon": "Бронирование скоро будет доступно",
+  "offerUnavailable": "Это предложение больше недоступно",
+  "favoriteAdd": "В избранное",
+  "favoriteRemove": "Убрать из избранного",
+  "favoriteAdded": "Добавлено в избранное",
+  "favoriteRemoved": "Удалено из избранного",
+  "favoriteError": "Не удалось обновить избранное",
+
+  "editOfferTitle": "Редактировать предложение",
+  "offerUpdatedSuccess": "Предложение обновлено.",
+  "offerDuplicatePickupHint": "Поля заполнены из прошлого предложения. Укажите новое время получения.",
+  "offerActionEdit": "Редактировать",
+  "offerActionPublish": "Опубликовать",
+  "offerActionDeactivate": "Снять с публикации",
+  "offerActionCancel": "Отменить",
+  "offerActionRepeat": "Повторить",
+  "offerActionDelete": "Удалить",
+  "offerStatusUpdated": "Статус обновлён.",
+  "offerDeletedSuccess": "Предложение удалено.",
+  "offerActionError": "Не удалось выполнить действие. Попробуйте ещё раз.",
+  "offerDeleteConfirmTitle": "Удалить предложение?",
+  "offerDeleteConfirmBody": "Это навсегда удалит предложение. Действие необратимо.",
+  "offerCancelConfirmTitle": "Отменить предложение?",
+  "offerCancelConfirmBody": "Предложение будет отменено и больше не будет видно покупателям. Чтобы снова разместить его, используйте «Повторить».",
+  "dialogConfirm": "Подтвердить",
+  "dialogCancel": "Отмена",
+
+  "orderTitle": "Заказ",
+  "@orderTitle": {
+    "description": "Order detail screen title"
+  },
+  "ordersActiveTitle": "Активные",
+  "@ordersActiveTitle": {
+    "description": "Orders list: active section header"
+  },
+  "ordersPastTitle": "История",
+  "@ordersPastTitle": {
+    "description": "Orders list: past section header"
+  },
+  "ordersEmptyTitle": "Заказов пока нет",
+  "@ordersEmptyTitle": {
+    "description": "Orders list empty state title"
+  },
+  "ordersEmptyBody": "Забронируйте сюрприз-пакет, он появится здесь.",
+  "@ordersEmptyBody": {
+    "description": "Orders list empty state body"
+  },
+  "ordersErrorTitle": "Не удалось загрузить заказы",
+  "@ordersErrorTitle": {
+    "description": "Orders load error title"
+  },
+  "orderStatusReserved": "Забронирован",
+  "@orderStatusReserved": {
+    "description": "Order status: reserved"
+  },
+  "orderStatusPaid": "Оплачен",
+  "@orderStatusPaid": {
+    "description": "Order status: paid"
+  },
+  "orderStatusPickedUp": "Получен",
+  "@orderStatusPickedUp": {
+    "description": "Order status: picked up"
+  },
+  "orderStatusCompleted": "Получено",
+  "@orderStatusCompleted": {
+    "description": "Order status: completed"
+  },
+  "orderStatusCancelled": "Отменён",
+  "@orderStatusCancelled": {
+    "description": "Order status: cancelled"
+  },
+  "orderStatusRefunded": "Возвращён",
+  "@orderStatusRefunded": {
+    "description": "Order status: refunded"
+  },
+  "orderStatusExpired": "Просрочен",
+  "@orderStatusExpired": {
+    "description": "Order status: expired"
+  },
+  "orderPickupCodeLabel": "Код получения",
+  "@orderPickupCodeLabel": {
+    "description": "Pickup code label on the order screen"
+  },
+  "orderPickupCodeHint": "Покажите этот код в заведении, чтобы забрать заказ. Не делитесь им.",
+  "@orderPickupCodeHint": {
+    "description": "Pickup code hint"
+  },
+  "orderPickupGuideTitle": "Как забрать заказ",
+  "@orderPickupGuideTitle": {
+    "description": "Heading of the pickup-instructions block on the order screen."
+  },
+  "orderAddToCalendar": "Добавить в календарь",
+  "@orderAddToCalendar": {
+    "description": "Button on the order screen that adds the pickup window to the user's calendar."
+  },
+  "orderCalendarEventTitle": "Получение заказа: {merchant}",
+  "@orderCalendarEventTitle": {
+    "description": "Title of the calendar event created for an order pickup.",
+    "placeholders": {
+      "merchant": { "type": "String" }
+    }
+  },
+  "orderPickupGuideStep1": "Придите в заведение в указанное время получения.",
+  "@orderPickupGuideStep1": {
+    "description": "First pickup instruction step."
+  },
+  "orderPickupGuideStep2": "Покажите этот код или QR сотруднику.",
+  "@orderPickupGuideStep2": {
+    "description": "Second pickup instruction step."
+  },
+  "pickupCountdownStartsIn": "Получение начнётся через {time}",
+  "@pickupCountdownStartsIn": {
+    "description": "Live countdown shown before the pickup window opens.",
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "pickupCountdownClosesIn": "Получение закроется через {time}",
+  "@pickupCountdownClosesIn": {
+    "description": "Live countdown shown while the pickup window is open.",
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "pickupCountdownClosed": "Время получения истекло",
+  "@pickupCountdownClosed": {
+    "description": "Shown once the pickup window has closed."
+  },
+  "countdownDaysHours": "{days} дн {hours} ч",
+  "@countdownDaysHours": {
+    "description": "Compact duration: days and hours.",
+    "placeholders": {
+      "days": { "type": "int" },
+      "hours": { "type": "int" }
+    }
+  },
+  "countdownHoursMinutes": "{hours} ч {minutes} мин",
+  "@countdownHoursMinutes": {
+    "description": "Compact duration: hours and minutes.",
+    "placeholders": {
+      "hours": { "type": "int" },
+      "minutes": { "type": "int" }
+    }
+  },
+  "countdownMinutes": "{minutes} мин",
+  "@countdownMinutes": {
+    "description": "Compact duration: minutes.",
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "countdownSeconds": "{seconds} сек",
+  "@countdownSeconds": {
+    "description": "Compact duration: seconds (final minute of a countdown).",
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "orderPayNow": "Оплатить",
+  "@orderPayNow": {
+    "description": "Pay now button on the order screen"
+  },
+  "orderPayMockNote": "Тестовая оплата (песочница), без реального списания.",
+  "@orderPayMockNote": {
+    "description": "Sandbox mock-payment note shown above the pay button"
+  },
+  "orderCancelAction": "Отменить заказ",
+  "@orderCancelAction": {
+    "description": "Cancel order action label"
+  },
+  "orderCancelConfirmTitle": "Отменить заказ?",
+  "@orderCancelConfirmTitle": {
+    "description": "Cancel order confirm dialog title"
+  },
+  "orderCancelConfirmBodyReserved": "Пакет снова станет доступен другим покупателям.",
+  "@orderCancelConfirmBodyReserved": {
+    "description": "Cancel-confirm dialog body for an unpaid reservation"
+  },
+  "orderCancelConfirmBodyPaid": "Вы можете бесплатно отменить заказ не позднее чем за час до окончания окна получения. После этого возврат средств невозможен.",
+  "@orderCancelConfirmBodyPaid": {
+    "description": "Cancel-confirm dialog body for a paid order"
+  },
+  "orderKeepAction": "Оставить заказ",
+  "@orderKeepAction": {
+    "description": "Dismiss button on the cancel-order dialog (keep the order)"
+  },
+  "orderCancelledMessage": "Заказ отменён.",
+  "@orderCancelledMessage": {
+    "description": "Order cancelled snackbar"
+  },
+  "orderPaidMessage": "Оплата подтверждена.",
+  "@orderPaidMessage": {
+    "description": "Order paid snackbar"
+  },
+  "payTitle": "Оплата",
+  "@payTitle": {
+    "description": "Payment screen title"
+  },
+  "payAmountLabel": "Сумма к оплате",
+  "@payAmountLabel": {
+    "description": "Label above the amount on the payment screen"
+  },
+  "payWithPayme": "Оплатить через Payme",
+  "@payWithPayme": {
+    "description": "Button that opens the Payme checkout"
+  },
+  "payProviderNote": "Вы перейдёте на страницу Payme для безопасной оплаты.",
+  "@payProviderNote": {
+    "description": "Note under the Pay with Payme button"
+  },
+  "payWaitingTitle": "Ожидание подтверждения оплаты",
+  "@payWaitingTitle": {
+    "description": "Title shown while polling for the payment to confirm"
+  },
+  "payWaitingHint": "Завершите оплату в открывшемся окне и вернитесь сюда, мы подтвердим её автоматически.",
+  "@payWaitingHint": {
+    "description": "Hint shown while waiting for payment confirmation"
+  },
+  "payCheckNow": "Я оплатил, проверить",
+  "@payCheckNow": {
+    "description": "Button to re-check the payment status immediately"
+  },
+  "payUnavailable": "Онлайн-оплата пока недоступна.",
+  "@payUnavailable": {
+    "description": "Shown when no payment method is available"
+  },
+  "payLaunchError": "Не удалось открыть страницу оплаты.",
+  "@payLaunchError": {
+    "description": "Snackbar when the checkout page fails to open"
+  },
+  "payDevSimulate": "Симулировать оплату (тест)",
+  "@payDevSimulate": {
+    "description": "Dev-only button that marks the order paid via the mock"
+  },
+  "paySuccess": "Оплата подтверждена",
+  "@paySuccess": {
+    "description": "Payment success state title"
+  },
+  "payViewOrder": "К заказу",
+  "@payViewOrder": {
+    "description": "Button to return to the order from the payment screen"
+  },
+  "payNotPayable": "Этот заказ нельзя оплатить.",
+  "@payNotPayable": {
+    "description": "Shown when the order is not in a payable state"
+  },
+  "payBack": "Назад",
+  "@payBack": {
+    "description": "Back button on the payment waiting state"
+  },
+  "reserveSoldOut": "Распродано",
+  "@reserveSoldOut": {
+    "description": "Reserve button label when the offer is sold out"
+  },
+  "orderViewExisting": "Открыть мой заказ",
+  "@orderViewExisting": {
+    "description": "Offer detail CTA when the user already has an active order for this offer"
+  },
+  "orderErrorSoldOut": "Извините, этот пакет только что распродали.",
+  "@orderErrorSoldOut": {
+    "description": "Reserve error: sold out"
+  },
+  "orderErrorMaxReservations": "Слишком много активных броней. Сначала заберите или отмените одну.",
+  "@orderErrorMaxReservations": {
+    "description": "Reserve error: too many active reservations"
+  },
+  "orderErrorCancelWindow": "Поздно отменять бесплатно, до окончания окна получения меньше часа.",
+  "@orderErrorCancelWindow": {
+    "description": "Cancel error: free-cancel window closed"
+  },
+  "orderErrorNotCancellable": "Этот заказ больше нельзя отменить.",
+  "@orderErrorNotCancellable": {
+    "description": "Cancel error: order not in a cancellable state"
+  },
+  "orderErrorPaymentInProgress": "Идёт оплата этого заказа. Дождитесь её завершения.",
+  "@orderErrorPaymentInProgress": {
+    "description": "Cancel error: order has a live payment in progress"
+  },
+
+  "verifyPickupTitle": "Подтвердить выдачу",
+  "@verifyPickupTitle": {
+    "description": "Title of the merchant pickup-verification sheet"
+  },
+  "verifyPickupCta": "Подтвердить выдачу",
+  "@verifyPickupCta": {
+    "description": "Button that opens pickup verification"
+  },
+  "verifyCodeHint": "Введите код покупателя",
+  "@verifyCodeHint": {
+    "description": "Hint for the pickup code field"
+  },
+  "verifyScanQr": "Сканировать QR",
+  "@verifyScanQr": {
+    "description": "Switch to QR scanning"
+  },
+  "verifyEnterManually": "Ввести код вручную",
+  "@verifyEnterManually": {
+    "description": "Switch back to manual code entry"
+  },
+  "verifyScanUnavailable": "Камера недоступна. Введите код вручную.",
+  "@verifyScanUnavailable": {
+    "description": "Shown when the camera can't be used for scanning"
+  },
+  "verifyAction": "Подтвердить",
+  "@verifyAction": {
+    "description": "Confirm pickup verification button"
+  },
+  "verifySuccess": "Выдано: {title}",
+  "@verifySuccess": {
+    "description": "Snackbar after a successful pickup verification",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "merchantOrdersEmptyTitle": "Заказов пока нет",
+  "@merchantOrdersEmptyTitle": {
+    "description": "Merchant orders empty state title"
+  },
+  "merchantOrdersEmptyBody": "Брони покупателей появятся здесь.",
+  "@merchantOrdersEmptyBody": {
+    "description": "Merchant orders empty state body"
+  },
+  "verifyErrorCodeNotFound": "Заказ с таким кодом не найден.",
+  "@verifyErrorCodeNotFound": {
+    "description": "Verify error: no matching paid order for the code"
+  },
+  "verifyErrorExpired": "Окно выдачи закрыто.",
+  "@verifyErrorExpired": {
+    "description": "Verify error: pickup window + grace has passed"
+  },
+
+  "rateTitle": "Оцените заказ",
+  "@rateTitle": {
+    "description": "Rating section title on a completed order"
+  },
+  "rateYourRating": "Ваша оценка",
+  "@rateYourRating": {
+    "description": "Label above the read-only given rating"
+  },
+  "rateCommentHint": "Добавить комментарий (необязательно)",
+  "@rateCommentHint": {
+    "description": "Hint for the optional rating comment field"
+  },
+  "rateSubmit": "Оценить",
+  "@rateSubmit": {
+    "description": "Submit rating button"
+  },
+  "rateSuccess": "Спасибо за оценку!",
+  "@rateSuccess": {
+    "description": "Snackbar after a rating is submitted"
+  },
+  "statsBagsSold": "Продано",
+  "@statsBagsSold": {
+    "description": "Merchant stat: number of collected orders"
+  },
+  "statsRevenue": "Выручка",
+  "@statsRevenue": {
+    "description": "Merchant stat: revenue"
+  },
+  "statsRating": "Рейтинг",
+  "@statsRating": {
+    "description": "Merchant stat: average rating"
+  },
+
+  "merchantNetPayout": "Вы получаете {amount}",
+  "@merchantNetPayout": {
+    "description": "Merchant-facing label for an order: net payout (bag price minus the platform fee)",
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+
+  "adminSectionMerchants": "Заведения",
+  "@adminSectionMerchants": {
+    "description": "Admin dashboard: merchant management section title"
+  },
+  "adminSectionMerchantsSubtitle": "Заявки, одобрение, приостановка",
+  "@adminSectionMerchantsSubtitle": {
+    "description": "Admin dashboard: merchant management section subtitle"
+  },
+  "adminMerchantsTitle": "Заведения",
+  "@adminMerchantsTitle": {
+    "description": "Admin merchant management screen title"
+  },
+  "adminStatePending": "На рассмотрении",
+  "@adminStatePending": {
+    "description": "Merchant moderation state: pending review"
+  },
+  "adminStateApproved": "Одобрено",
+  "@adminStateApproved": {
+    "description": "Merchant moderation state: approved and active"
+  },
+  "adminStateSuspended": "Приостановлено",
+  "@adminStateSuspended": {
+    "description": "Merchant moderation state: suspended"
+  },
+  "adminStateRejected": "Отклонено",
+  "@adminStateRejected": {
+    "description": "Merchant moderation state: rejected"
+  },
+  "adminMerchantsEmptyTitle": "Здесь пусто",
+  "@adminMerchantsEmptyTitle": {
+    "description": "Empty state for a merchant moderation queue"
+  },
+  "adminMerchantsErrorTitle": "Не удалось загрузить заведения",
+  "@adminMerchantsErrorTitle": {
+    "description": "Error state for the merchant moderation list"
+  },
+  "adminMerchantCategory": "Категория",
+  "@adminMerchantCategory": {
+    "description": "Merchant detail label: category"
+  },
+  "adminMerchantPhone": "Телефон",
+  "@adminMerchantPhone": {
+    "description": "Merchant detail label: phone"
+  },
+  "adminMerchantAddress": "Адрес",
+  "@adminMerchantAddress": {
+    "description": "Merchant detail label: address"
+  },
+  "adminMerchantRating": "Рейтинг",
+  "@adminMerchantRating": {
+    "description": "Merchant detail label: rating"
+  },
+  "adminMerchantBagsSaved": "Спасено наборов",
+  "@adminMerchantBagsSaved": {
+    "description": "Merchant detail label: total bags saved"
+  },
+  "adminMerchantJoined": "Регистрация",
+  "@adminMerchantJoined": {
+    "description": "Merchant detail label: registration date"
+  },
+  "adminMerchantNote": "Заметка модерации",
+  "@adminMerchantNote": {
+    "description": "Merchant detail label: last moderation note"
+  },
+  "adminActionApprove": "Одобрить",
+  "@adminActionApprove": {
+    "description": "Admin action: approve merchant"
+  },
+  "adminActionReject": "Отклонить",
+  "@adminActionReject": {
+    "description": "Admin action: reject merchant"
+  },
+  "adminActionSuspend": "Приостановить",
+  "@adminActionSuspend": {
+    "description": "Admin action: suspend an approved merchant"
+  },
+  "adminActionReinstate": "Восстановить",
+  "@adminActionReinstate": {
+    "description": "Admin action: reinstate a suspended merchant"
+  },
+  "adminNoteLabel": "Заметка (необязательно)",
+  "@adminNoteLabel": {
+    "description": "Optional moderation note input label"
+  },
+  "adminRejectNoteLabel": "Причина (обязательно)",
+  "@adminRejectNoteLabel": {
+    "description": "Required rejection reason input label"
+  },
+  "adminApproveCoordsHint": "Укажите координаты заведения, они нужны для карты.",
+  "@adminApproveCoordsHint": {
+    "description": "Approve dialog hint: coordinates are required for the map"
+  },
+  "adminApproveLatLabel": "Широта",
+  "@adminApproveLatLabel": {
+    "description": "Latitude input label in the approve dialog"
+  },
+  "adminApproveLngLabel": "Долгота",
+  "@adminApproveLngLabel": {
+    "description": "Longitude input label in the approve dialog"
+  },
+  "adminErrorCoordsRequired": "Укажите корректные координаты.",
+  "@adminErrorCoordsRequired": {
+    "description": "Validation error: coordinates missing or out of range"
+  },
+  "adminErrorNoteRequired": "Необходимо указать причину.",
+  "@adminErrorNoteRequired": {
+    "description": "Validation error: a note/reason is required"
+  },
+  "adminActionError": "Не удалось выполнить действие. Попробуйте ещё раз.",
+  "@adminActionError": {
+    "description": "Generic admin action failure"
+  },
+  "adminMerchantApproved": "Заведение одобрено",
+  "@adminMerchantApproved": {
+    "description": "Snackbar: merchant approved"
+  },
+  "adminMerchantRejected": "Заявка отклонена",
+  "@adminMerchantRejected": {
+    "description": "Snackbar: merchant application rejected"
+  },
+  "adminMerchantSuspended": "Заведение приостановлено",
+  "@adminMerchantSuspended": {
+    "description": "Snackbar: merchant suspended"
+  },
+  "adminMerchantReinstated": "Заведение восстановлено",
+  "@adminMerchantReinstated": {
+    "description": "Snackbar: merchant reinstated"
+  },
+
+  "adminSectionOrders": "Заказы",
+  "@adminSectionOrders": {
+    "description": "Admin dashboard: order management section title"
+  },
+  "adminSectionOrdersSubtitle": "Поиск, детали, возвраты",
+  "@adminSectionOrdersSubtitle": {
+    "description": "Admin dashboard: order management section subtitle"
+  },
+  "adminOrdersTitle": "Заказы",
+  "@adminOrdersTitle": {
+    "description": "Admin order management screen title"
+  },
+  "adminOrdersSearchHint": "Поиск по ID заказа, телефону или заведению",
+  "@adminOrdersSearchHint": {
+    "description": "Admin order search field hint"
+  },
+  "adminOrdersEmptyTitle": "Заказы не найдены",
+  "@adminOrdersEmptyTitle": {
+    "description": "Empty state for admin order search"
+  },
+  "adminOrdersErrorTitle": "Не удалось загрузить заказы",
+  "@adminOrdersErrorTitle": {
+    "description": "Error state for admin order search"
+  },
+  "adminOrderStatusAll": "Все",
+  "@adminOrderStatusAll": {
+    "description": "Order status filter: all statuses"
+  },
+  "adminOrderConsumer": "Покупатель",
+  "@adminOrderConsumer": {
+    "description": "Order detail label: consumer"
+  },
+  "adminOrderMerchant": "Заведение",
+  "@adminOrderMerchant": {
+    "description": "Order detail label: merchant"
+  },
+  "adminOrderAmount": "Сумма",
+  "@adminOrderAmount": {
+    "description": "Order detail label: amount paid"
+  },
+  "adminOrderCommission": "Комиссия платформы",
+  "@adminOrderCommission": {
+    "description": "Order detail label: platform commission"
+  },
+  "adminOrderCancelReason": "Причина отмены",
+  "@adminOrderCancelReason": {
+    "description": "Order detail label: cancellation/refund reason"
+  },
+  "adminOrderStatusHistory": "История статусов",
+  "@adminOrderStatusHistory": {
+    "description": "Order detail section: status history timeline"
+  },
+  "adminOrderRefund": "Вернуть",
+  "@adminOrderRefund": {
+    "description": "Admin action: refund a paid order"
+  },
+  "adminRefundConfirmTitle": "Оформить возврат?",
+  "@adminRefundConfirmTitle": {
+    "description": "Refund confirmation dialog title"
+  },
+  "adminRefundConfirmBody": "Покупателю будет возвращена полная сумма, а набор вернётся в наличие.",
+  "@adminRefundConfirmBody": {
+    "description": "Refund confirmation dialog body"
+  },
+  "adminRefundReasonLabel": "Причина (необязательно)",
+  "@adminRefundReasonLabel": {
+    "description": "Refund reason input label"
+  },
+  "adminOrderRefunded": "Возврат оформлен",
+  "@adminOrderRefunded": {
+    "description": "Snackbar: order refunded"
+  },
+  "adminErrorNotRefundable": "Этот заказ нельзя вернуть.",
+  "@adminErrorNotRefundable": {
+    "description": "Error: order is not in a refundable state"
+  },
+
+  "adminMetricsError": "Не удалось загрузить метрики",
+  "@adminMetricsError": {
+    "description": "Admin dashboard: platform metrics failed to load"
+  },
+  "adminMetricOrdersToday": "Заказов сегодня",
+  "@adminMetricOrdersToday": {
+    "description": "Metric: orders placed today"
+  },
+  "adminMetricOrdersWeek": "Заказов за неделю",
+  "@adminMetricOrdersWeek": {
+    "description": "Metric: orders this week"
+  },
+  "adminMetricOrdersMonth": "Заказов за месяц",
+  "@adminMetricOrdersMonth": {
+    "description": "Metric: orders this month"
+  },
+  "adminMetricRevenue": "Выручка",
+  "@adminMetricRevenue": {
+    "description": "Metric: total revenue collected"
+  },
+  "adminMetricCommission": "Комиссия платформы",
+  "@adminMetricCommission": {
+    "description": "Metric: total platform commission earned"
+  },
+
+  "adminFeeSectionTitle": "Комиссия платформы",
+  "adminFeeDefaultLabel": "Комиссия по умолчанию за набор",
+  "adminFeeAmountLabel": "Комиссия за набор (сум)",
+  "adminFeeAmountError": "Введите корректную сумму",
+  "adminFeeDefaultValue": "По умолчанию",
+  "adminFeeMerchantHint": "Оставьте пустым, чтобы применить комиссию по умолчанию",
+  "adminFeeUpdated": "Комиссия платформы обновлена",
+  "adminFeeEdit": "Изменить комиссию",
+
+  "adminMetricBagsSaved": "Спасено наборов",
+  "@adminMetricBagsSaved": {
+    "description": "Metric: total bags saved (completed orders)"
+  },
+  "adminMetricActiveMerchants": "Активных заведений",
+  "@adminMetricActiveMerchants": {
+    "description": "Metric: approved and active merchants"
+  },
+  "adminMetricActiveConsumers": "Активных покупателей",
+  "@adminMetricActiveConsumers": {
+    "description": "Metric: consumers who ordered in the last 30 days"
+  },
+
+  "reportIssueTitle": "Сообщить о проблеме",
+  "@reportIssueTitle": {
+    "description": "Report-an-issue screen title and profile entry"
+  },
+  "reportIssueSubtitle": "Опишите, что пошло не так, и мы разберёмся.",
+  "@reportIssueSubtitle": {
+    "description": "Report-an-issue form subtitle"
+  },
+  "reportIssueSubjectLabel": "Тема",
+  "@reportIssueSubjectLabel": {
+    "description": "Report-an-issue subject field label"
+  },
+  "reportIssueMessageLabel": "Что случилось?",
+  "@reportIssueMessageLabel": {
+    "description": "Report-an-issue message field label"
+  },
+  "reportIssueSubmit": "Отправить",
+  "@reportIssueSubmit": {
+    "description": "Report-an-issue submit button"
+  },
+  "reportIssueSuccess": "Спасибо, мы получили ваше обращение.",
+  "@reportIssueSuccess": {
+    "description": "Report-an-issue success snackbar"
+  },
+  "reportIssueError": "Не удалось отправить обращение. Попробуйте ещё раз.",
+  "@reportIssueError": {
+    "description": "Report-an-issue failure snackbar"
+  },
+  "adminSectionSupport": "Поддержка",
+  "@adminSectionSupport": {
+    "description": "Admin dashboard: support section title"
+  },
+  "adminSectionSupportSubtitle": "Обращения пользователей",
+  "@adminSectionSupportSubtitle": {
+    "description": "Admin dashboard: support section subtitle"
+  },
+  "adminSupportTitle": "Поддержка",
+  "@adminSupportTitle": {
+    "description": "Admin support inbox screen title"
+  },
+  "adminSupportEmptyTitle": "Обращений нет",
+  "@adminSupportEmptyTitle": {
+    "description": "Empty state for the admin support inbox"
+  },
+  "adminSupportErrorTitle": "Не удалось загрузить обращения",
+  "@adminSupportErrorTitle": {
+    "description": "Error state for the admin support inbox"
+  },
+  "adminSupportReporter": "Отправитель",
+  "@adminSupportReporter": {
+    "description": "Support ticket detail label: reporter"
+  },
+  "adminSupportCreated": "Отправлено",
+  "@adminSupportCreated": {
+    "description": "Support ticket detail label: created date"
+  },
+  "adminSupportNote": "Заметка администратора",
+  "@adminSupportNote": {
+    "description": "Support ticket detail label: admin note"
+  },
+  "adminSupportNoteLabel": "Заметка (необязательно)",
+  "@adminSupportNoteLabel": {
+    "description": "Resolve dialog note input label"
+  },
+  "adminSupportResolve": "Закрыть",
+  "@adminSupportResolve": {
+    "description": "Admin action: resolve a support ticket"
+  },
+  "adminSupportResolved": "Обращение закрыто",
+  "@adminSupportResolved": {
+    "description": "Snackbar: support ticket resolved"
+  },
+  "adminSupportStatusOpen": "Открыто",
+  "@adminSupportStatusOpen": {
+    "description": "Support ticket status: open"
+  },
+  "adminSupportStatusResolved": "Закрыто",
+  "@adminSupportStatusResolved": {
+    "description": "Support ticket status: resolved"
+  },
+  "notificationSettingsTitle": "Уведомления",
+  "@notificationSettingsTitle": {
+    "description": "Notification settings screen title and profile entry"
+  },
+  "notificationSettingsSubtitle": "Выберите, о чём вам сообщать.",
+  "@notificationSettingsSubtitle": {
+    "description": "Notification settings subtitle"
+  },
+  "notifPushExplainer": "Включите push-уведомления, чтобы получать их даже когда приложение закрыто.",
+  "@notifPushExplainer": {
+    "description": "Explainer shown when push is available, before the toggles"
+  },
+  "notifNewOfferLabel": "Новые наборы у избранных",
+  "@notifNewOfferLabel": {
+    "description": "Toggle: new offer from a favorited merchant"
+  },
+  "notifNewOfferDesc": "Когда любимое заведение выкладывает новый набор.",
+  "@notifNewOfferDesc": {
+    "description": "Description for the new-offer toggle"
+  },
+  "notifPickupReminderLabel": "Напоминание о получении",
+  "@notifPickupReminderLabel": {
+    "description": "Toggle: pickup reminder"
+  },
+  "notifPickupReminderDesc": "За 30 минут до окончания окна получения.",
+  "@notifPickupReminderDesc": {
+    "description": "Description for the pickup-reminder toggle"
+  },
+  "notifOrderUpdatesLabel": "Обновления заказов",
+  "@notifOrderUpdatesLabel": {
+    "description": "Toggle: order status updates"
+  },
+  "notifOrderUpdatesDesc": "Изменения статуса, отмены и возвраты.",
+  "@notifOrderUpdatesDesc": {
+    "description": "Description for the order-updates toggle"
+  },
+  "notifDailyMerchantLabel": "Ежедневное напоминание",
+  "@notifDailyMerchantLabel": {
+    "description": "Toggle (merchants): daily reminder to post offers"
+  },
+  "notifDailyMerchantDesc": "Напоминание выложить сегодняшние наборы.",
+  "@notifDailyMerchantDesc": {
+    "description": "Description for the daily-merchant-reminder toggle"
+  },
+  "notifMarketingLabel": "Акции и новости",
+  "@notifMarketingLabel": {
+    "description": "Toggle: marketing notifications (opt-in)"
+  },
+  "notifMarketingDesc": "Маркетинговые сообщения. Требуется ваше согласие.",
+  "@notifMarketingDesc": {
+    "description": "Description for the marketing toggle, noting consent"
+  },
+  "notifUpdateError": "Не удалось сохранить. Попробуйте ещё раз.",
+  "@notifUpdateError": {
+    "description": "Snackbar when saving a preference fails"
+  },
+  "notifLoadError": "Не удалось загрузить настройки.",
+  "@notifLoadError": {
+    "description": "Shown when notification preferences fail to load"
+  },
+  "profileBagsSaved": "Спасено наборов от выбрасывания",
+  "@profileBagsSaved": {
+    "description": "Label under the bags-saved counter on the profile"
+  },
+  "notifEnablePush": "Включить push-уведомления",
+  "@notifEnablePush": {
+    "description": "Button to request OS push permission (explicit opt-in)"
+  },
+  "notifPushEnabled": "Push-уведомления включены",
+  "@notifPushEnabled": {
+    "description": "Snackbar when push permission is granted + token registered"
+  },
+  "notifPushDenied": "Разрешение не предоставлено",
+  "@notifPushDenied": {
+    "description": "Snackbar when push permission is denied/unavailable"
+  },
+
+  "favoritesTitle": "Избранное",
+  "@favoritesTitle": {
+    "description": "Title of the favorites screen (followed merchants) and its entry points."
+  },
+  "favoritesEmptyTitle": "Пока нет избранного",
+  "@favoritesEmptyTitle": {
+    "description": "Empty state title on the favorites screen."
+  },
+  "favoritesEmptyBody": "Нажмите на сердечко у заведения, чтобы подписаться и узнавать о новых наборах.",
+  "@favoritesEmptyBody": {
+    "description": "Empty state body on the favorites screen explaining how to follow a merchant."
+  },
+  "favoritesErrorTitle": "Не удалось загрузить избранное",
+  "@favoritesErrorTitle": {
+    "description": "Error state on the favorites screen."
+  },
+  "merchantNotFound": "Это заведение недоступно",
+  "@merchantNotFound": {
+    "description": "Shown when a merchant profile cannot be loaded (unapproved/deactivated)."
+  },
+  "merchantOffersTitle": "Доступные наборы",
+  "@merchantOffersTitle": {
+    "description": "Heading above a merchant's currently available offers on its public profile."
+  },
+  "merchantNoOffersTitle": "Сейчас наборов нет",
+  "@merchantNoOffersTitle": {
+    "description": "Empty state title when a merchant has no active offers."
+  },
+  "merchantNoOffersBody": "У этого заведения пока нет наборов. Подпишитесь, чтобы узнать, когда появятся новые.",
+  "@merchantNoOffersBody": {
+    "description": "Empty state body when a merchant has no active offers, encouraging following."
+  },
+  "profileSectionPreferences": "Настройки",
+  "@profileSectionPreferences": {
+    "description": "Profile group header for preferences (favorites, notifications, language)."
+  },
+  "themeTitle": "Тема",
+  "@themeTitle": {
+    "description": "Label for the light/dark theme selector on the profile screen."
+  },
+  "themeSystem": "Как в системе",
+  "@themeSystem": {
+    "description": "Theme option that follows the device's light/dark setting."
+  },
+  "themeLight": "Светлая",
+  "@themeLight": {
+    "description": "Light theme option."
+  },
+  "themeDark": "Тёмная",
+  "@themeDark": {
+    "description": "Dark theme option."
+  },
+  "profileSectionAccount": "Аккаунт",
+  "@profileSectionAccount": {
+    "description": "Profile group header for account actions (become merchant, support, export, sign out)."
+  },
+  "profileSectionAbout": "О приложении",
+  "@profileSectionAbout": {
+    "description": "Profile group header for legal/about links."
+  },
+  "profileImpactCelebration": "Отличная работа! Каждый набор это меньше еды на свалке.",
+  "@profileImpactCelebration": {
+    "description": "Celebratory line on the consumer impact card when they have saved at least one bag."
+  },
+  "profileImpactEmpty": "Заберите первый набор, чтобы начать спасать еду от выбрасывания.",
+  "@profileImpactEmpty": {
+    "description": "Encouraging line on the impact card when the consumer has not saved any bags yet."
+  },
+  "profileShareImpact": "Поделиться",
+  "@profileShareImpact": {
+    "description": "Button on the impact card that copies a shareable message to the clipboard."
+  },
+  "profileImpactShareText": "{count, plural, one{Я спас {count} набор еды от выбрасывания вместе с Barakali!} few{Я спас {count} набора еды от выбрасывания вместе с Barakali!} other{Я спас {count} наборов еды от выбрасывания вместе с Barakali!}}",
+  "@profileImpactShareText": {
+    "description": "The shareable impact message copied to the clipboard.",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "profileImpactCopied": "Скопировано. Поделитесь где угодно!",
+  "@profileImpactCopied": {
+    "description": "Snackbar confirming the impact message was copied to the clipboard."
+  },
+  "dietaryHalal": "Халяль",
+  "@dietaryHalal": {
+    "description": "Short label for the halal dietary attribute (merchant-level)."
+  },
+  "dietaryVegetarian": "Вегетарианское",
+  "@dietaryVegetarian": {
+    "description": "Short label for the vegetarian dietary tag."
+  },
+  "dietaryVegan": "Веганское",
+  "@dietaryVegan": {
+    "description": "Short label for the vegan dietary tag."
+  },
+  "dietaryNoPork": "Без свинины",
+  "@dietaryNoPork": {
+    "description": "Short label for the no-pork dietary tag."
+  },
+  "dietaryNoAlcohol": "Без алкоголя",
+  "@dietaryNoAlcohol": {
+    "description": "Short label for the no-alcohol dietary tag."
+  },
+  "merchantHalalToggleLabel": "Мы халяльное заведение",
+  "@merchantHalalToggleLabel": {
+    "description": "Checkbox on merchant registration to self-declare halal."
+  },
+  "merchantHalalToggleHint": "Показывается покупателям как заявленное продавцом. Подтвердите, что это точно.",
+  "@merchantHalalToggleHint": {
+    "description": "Subtitle under the halal self-declaration checkbox."
+  },
+  "offerDietaryLabel": "Питание (необязательно)",
+  "@offerDietaryLabel": {
+    "description": "Section title above the dietary tag chips on the offer form."
+  },
+  "merchantHalalBadge": "Халяль",
+  "@merchantHalalBadge": {
+    "description": "Halal trust badge label on merchant/offer detail."
+  },
+  "merchantHalalBadgeHint": "Заявлено продавцом, не сертифицировано.",
+  "@merchantHalalBadgeHint": {
+    "description": "Tooltip clarifying the halal badge is merchant-declared, not certified."
+  },
+  "dietaryPrefsTitle": "Пищевые предпочтения",
+  "@dietaryPrefsTitle": {
+    "description": "Title of the consumer dietary preferences settings screen."
+  },
+  "dietaryPrefsSubtitle": "Выберите, что вам нужно. Мы отфильтруем предложения и уведомления под ваши предпочтения.",
+  "@dietaryPrefsSubtitle": {
+    "description": "Intro text on the dietary preferences screen."
+  },
+  "dietaryPrefsError": "Не удалось сохранить. Попробуйте снова.",
+  "@dietaryPrefsError": {
+    "description": "Snackbar when saving dietary preferences fails."
+  },
+  "adminMerchantHalal": "Халяль (заявлено продавцом)",
+  "@adminMerchantHalal": {
+    "description": "Detail row label for a merchant's halal flag in the admin sheet."
+  },
+  "adminHalalStateOn": "Да",
+  "@adminHalalStateOn": {
+    "description": "Value shown when a merchant's halal flag is on."
+  },
+  "adminHalalStateOff": "Нет",
+  "@adminHalalStateOff": {
+    "description": "Value shown when a merchant's halal flag is off."
+  },
+  "adminActionSetHalal": "Отметить как халяль",
+  "@adminActionSetHalal": {
+    "description": "Admin action to mark a merchant as halal."
+  },
+  "adminActionUnsetHalal": "Снять отметку халяль",
+  "@adminActionUnsetHalal": {
+    "description": "Admin action to remove a merchant's halal mark."
+  },
+  "adminHalalUpdated": "Статус халяль обновлён",
+  "@adminHalalUpdated": {
+    "description": "Snackbar after an admin changes a merchant's halal flag."
+  }
+}

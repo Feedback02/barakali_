@@ -1,0 +1,14 @@
+# Release signing config for Android — COPY to `key.properties` (gitignored) and fill in.
+# Generate a keystore once (keep the .jks OUT of git; back it up securely — losing it
+# means you can never update the app on the Play Store):
+#
+#   keytool -genkey -v -keystore C:\Users\<you>\barakali-release.jks \
+#     -keyalg RSA -keysize 2048 -validity 10000 -alias barakali
+#
+# Then set the four values below. build.gradle.kts reads this file; if it's absent the
+# release build falls back to debug signing (fine for local smoke tests, NOT for Play).
+
+storeFile=C:\\Users\\<you>\\barakali-release.jks
+storePassword=<store-password>
+keyAlias=barakali
+keyPassword=<key-password>

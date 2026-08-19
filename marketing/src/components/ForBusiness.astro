@@ -1,0 +1,48 @@
+---
+import { asLang, useTranslations } from '../i18n/utils';
+
+const lang = asLang(Astro.currentLocale);
+const t = useTranslations(lang);
+
+const benefits = [
+  { title: t('business.b1.title'), text: t('business.b1.text') },
+  { title: t('business.b2.title'), text: t('business.b2.text') },
+  { title: t('business.b3.title'), text: t('business.b3.text') },
+  { title: t('business.b4.title'), text: t('business.b4.text') },
+];
+---
+
+<section id="business" class="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+  <div class="grid gap-10 md:grid-cols-2 md:items-start">
+    <div>
+      <span
+        class="inline-flex items-center rounded-full bg-terracotta/10 px-3 py-1 text-sm font-semibold text-terracotta-strong"
+      >
+        {t('business.badge')}
+      </span>
+      <h2 class="mt-4 text-3xl font-bold tracking-tight text-ink">
+        {t('business.title')}
+      </h2>
+      <p class="mt-4 text-lg leading-relaxed text-ink-soft">
+        {t('business.subtitle')}
+      </p>
+      <a
+        href="#partner"
+        class="mt-6 inline-block rounded-brand bg-brand px-6 py-3 text-base font-semibold text-white shadow-sm transition-colors hover:bg-brand-strong"
+      >
+        {t('business.cta')}
+      </a>
+    </div>
+
+    <div class="grid gap-5 sm:grid-cols-2">
+      {
+        benefits.map((b) => (
+          <div class="rounded-brand bg-white p-5 shadow-sm ring-1 ring-black/5">
+            <h3 class="font-semibold text-brand-strong">{b.title}</h3>
+            <p class="mt-1.5 text-sm leading-relaxed text-ink-soft">{b.text}</p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

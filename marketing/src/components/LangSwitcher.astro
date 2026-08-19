@@ -1,0 +1,27 @@
+---
+import { asLang, localeHome } from '../i18n/utils';
+import { languages, langNames } from '../i18n/ui';
+
+const current = asLang(Astro.currentLocale);
+---
+
+<nav aria-label="Language" class="flex items-center gap-1 text-sm">
+  {
+    languages.map((lang, i) => (
+      <>
+        {i > 0 && <span class="text-ink-soft/40">/</span>}
+        <a
+          href={localeHome[lang]}
+          hreflang={lang}
+          aria-current={lang === current ? 'true' : undefined}
+          class:list={[
+            'rounded-md px-1.5 py-0.5 transition-colors hover:text-brand',
+            lang === current ? 'font-semibold text-brand' : 'text-ink-soft',
+          ]}
+        >
+          {langNames[lang]}
+        </a>
+      </>
+    ))
+  }
+</nav>
