@@ -1,0 +1,27 @@
+---
+import { asLang, localeHome } from '../i18n/utils';
+import { privacy } from '../i18n/privacy';
+
+const lang = asLang(Astro.currentLocale);
+const doc = privacy[lang];
+const home = localeHome[lang];
+---
+
+<section class="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20">
+  <a href={home} class="text-sm font-medium text-brand hover:underline">
+    &larr; {doc.back}
+  </a>
+  <h1 class="mt-6 text-3xl font-bold tracking-tight text-ink">{doc.title}</h1>
+  <p class="mt-4 leading-relaxed text-ink-soft">{doc.intro}</p>
+
+  <div class="mt-8 space-y-6">
+    {
+      doc.sections.map((s) => (
+        <div>
+          <h2 class="text-lg font-semibold text-ink">{s.h}</h2>
+          <p class="mt-1.5 leading-relaxed text-ink-soft">{s.p}</p>
+        </div>
+      ))
+    }
+  </div>
+</section>

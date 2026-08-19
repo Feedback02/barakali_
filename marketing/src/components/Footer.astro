@@ -1,0 +1,79 @@
+---
+import { asLang, localeHome, useTranslations } from '../i18n/utils';
+import LangSwitcher from './LangSwitcher.astro';
+
+const lang = asLang(Astro.currentLocale);
+const t = useTranslations(lang);
+const year = new Date().getFullYear();
+const privacyPath = `${localeHome[lang]}privacy`;
+---
+
+<footer class="border-t border-black/5 bg-white">
+  <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+    <div class="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+      <div class="max-w-sm">
+        <div class="flex items-center gap-2">
+          <img
+            src="/barakali-mark-cut.png"
+            alt="Barakali"
+            width="36"
+            height="36"
+            class="h-9 w-9 object-contain"
+          />
+          <span class="text-lg font-bold text-brand">Barakali</span>
+        </div>
+        <p class="mt-3 text-sm leading-relaxed text-ink-soft">
+          {t('footer.tagline')}
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-6 sm:flex-row sm:gap-12">
+        <div>
+          <h3 class="text-sm font-semibold text-ink">{t('footer.eaters')}</h3>
+          <ul class="mt-3 space-y-2 text-sm text-ink-soft">
+            <li>
+              <a href="#how" class="transition-colors hover:text-brand"
+                >{t('nav.how')}</a
+              >
+            </li>
+            <li>
+              <a href="#waitlist" class="transition-colors hover:text-brand"
+                >{t('nav.waitlist')}</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-ink">{t('footer.business')}</h3>
+          <ul class="mt-3 space-y-2 text-sm text-ink-soft">
+            <li>
+              <a href="#business" class="transition-colors hover:text-brand"
+                >{t('footer.benefits')}</a
+              >
+            </li>
+            <li>
+              <a href="#partner" class="transition-colors hover:text-brand"
+                >{t('nav.partner')}</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mt-10 flex flex-col items-center gap-4 border-t border-black/5 pt-6 text-sm text-ink-soft sm:flex-row sm:justify-between"
+    >
+      <div class="flex items-center gap-4">
+        <p>&copy; {year} Barakali. {t('footer.rights')}</p>
+        <a href={privacyPath} class="transition-colors hover:text-brand"
+          >{t('footer.privacy')}</a
+        >
+      </div>
+      <div class="flex items-center gap-4">
+        <span>{t('footer.madeIn')}</span>
+        <LangSwitcher />
+      </div>
+    </div>
+  </div>
+</footer>

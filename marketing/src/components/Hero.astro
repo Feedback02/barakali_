@@ -1,0 +1,64 @@
+---
+import { asLang, useTranslations } from '../i18n/utils';
+
+const lang = asLang(Astro.currentLocale);
+const t = useTranslations(lang);
+---
+
+<section id="top" class="relative overflow-hidden bg-cream">
+  <!-- Subtle warmth confined to the text side (top-left). The logo on the right
+       sits on flat cream so its cream interior blends seamlessly into the page. -->
+  <div
+    class="pointer-events-none absolute -left-24 -top-28 -z-0 h-80 w-80 rounded-full bg-brand-soft/60 blur-3xl"
+  >
+  </div>
+  <div
+    class="relative z-10 mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 sm:py-24 md:grid-cols-2"
+  >
+    <div>
+      <span
+        class="inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 text-sm font-medium text-brand-strong ring-1 ring-brand/15"
+      >
+        <span class="h-2 w-2 rounded-full bg-amber"></span>
+        {t('hero.badge')}
+      </span>
+
+      <h1
+        class="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-ink sm:text-5xl"
+      >
+        {t('hero.title')}
+      </h1>
+
+      <p class="mt-5 max-w-xl text-lg leading-relaxed text-ink-soft">
+        {t('hero.subtitle')}
+      </p>
+
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+        <a
+          href="#waitlist"
+          class="rounded-brand bg-brand px-6 py-3 text-center text-base font-semibold text-white shadow-sm transition-colors hover:bg-brand-strong"
+        >
+          {t('hero.ctaEat')}
+        </a>
+        <a
+          href="#business"
+          class="rounded-brand border border-brand/30 bg-white px-6 py-3 text-center text-base font-semibold text-brand transition-colors hover:bg-brand-soft"
+        >
+          {t('hero.ctaBusiness')}
+        </a>
+      </div>
+
+      <p class="mt-4 text-sm text-ink-soft">{t('hero.note')}</p>
+    </div>
+
+    <div class="hidden items-center justify-center md:flex">
+      <img
+        src="/barakali-logo-cut.png"
+        alt="Barakali"
+        width="1600"
+        height="1371"
+        class="h-auto w-full max-w-md"
+      />
+    </div>
+  </div>
+</section>

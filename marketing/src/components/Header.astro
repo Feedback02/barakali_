@@ -1,0 +1,45 @@
+---
+import { asLang, useTranslations } from '../i18n/utils';
+import LangSwitcher from './LangSwitcher.astro';
+
+const lang = asLang(Astro.currentLocale);
+const t = useTranslations(lang);
+---
+
+<header
+  class="sticky top-0 z-40 border-b border-black/5 bg-cream/85 backdrop-blur-md"
+>
+  <div
+    class="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 sm:px-6"
+  >
+    <a href="#top" class="flex shrink-0 items-center gap-2">
+      <img
+        src="/barakali-mark-cut.png"
+        alt="Barakali"
+        width="40"
+        height="40"
+        class="h-10 w-10 object-contain"
+      />
+      <span class="text-lg font-bold tracking-tight text-brand">Barakali</span>
+    </a>
+
+    <nav
+      class="ml-auto hidden items-center gap-6 text-sm font-medium text-ink-soft md:flex"
+    >
+      <a href="#how" class="transition-colors hover:text-brand">{t('nav.how')}</a>
+      <a href="#business" class="transition-colors hover:text-brand"
+        >{t('nav.business')}</a
+      >
+    </nav>
+
+    <div class="ml-auto flex items-center gap-3 md:ml-0">
+      <LangSwitcher />
+      <a
+        href="#waitlist"
+        class="rounded-brand bg-brand px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-brand-strong"
+      >
+        {t('nav.waitlist')}
+      </a>
+    </div>
+  </div>
+</header>
