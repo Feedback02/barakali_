@@ -38,7 +38,7 @@ dependencies:
   image: ^4.9.1 # pure-Dart decode/EXIF-strip/compress (cross-platform incl. web)
   cached_network_image: ^3.4.1
   shimmer: ^3.0.0
-  geolocator: ^14.0.2
+  geolocator: ^14.0.3
   google_maps_flutter: ^2.17.1
   web: ^1.1.1
   flutter_svg: ^2.3.0
