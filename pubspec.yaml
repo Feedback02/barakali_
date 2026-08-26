@@ -14,7 +14,7 @@ dependencies:
   intl: any
 
   # State Management (manual Notifier/AsyncNotifier pattern, no codegen)
-  flutter_riverpod: ^3.3.1
+  flutter_riverpod: ^3.4.2
 
   # Routing
   go_router: ^17.3.0
