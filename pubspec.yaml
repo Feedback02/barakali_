@@ -34,7 +34,7 @@ dependencies:
   logger: ^2.7.0
 
   # Media / Images (offer photos)
-  image_picker: ^1.2.2
+  image_picker: ^1.2.3
   image: ^4.9.1 # pure-Dart decode/EXIF-strip/compress (cross-platform incl. web)
   cached_network_image: ^3.4.1
   shimmer: ^3.0.0
